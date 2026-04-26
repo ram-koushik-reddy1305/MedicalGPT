@@ -1,4 +1,6 @@
 # Model checkpoints — upload to Drive/OneDrive instead
+data/
+checkpoints/
 *.pt
 *.pth
 *.ckpt
