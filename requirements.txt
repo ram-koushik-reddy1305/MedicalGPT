@@ -1,0 +1,7 @@
+streamlit
+torch
+sentencepiece
+pandas
+matplotlib
+seaborn
+numpy
