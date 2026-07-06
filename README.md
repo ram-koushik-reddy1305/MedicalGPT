@@ -3,17 +3,17 @@
 ---
 
 ## **Project Overview**
-MedicalGPT is a custom **Decoder-only Transformer Language Model** built entirely from scratch using PyTorch. The model is specifically designed and trained for **single-turn patient symptom-to-clinical response generation**. 
+MedicalGPT is a custom **Decoder-only Transformer Language Model** built entirely from scratch using PyTorch. The model is specifically designed and trained for **single turn patient symptom to clinical response generation**. 
 
-Rather than relying on generic pre-trained LLMs, this project implements the full pipeline—from medical-domain text tokenization to autoregressive transformer training and evaluation—culminating in an interactive Streamlit dashboard.
+Rather than relying on generic pre-trained LLMs, this project implements the full pipeline from medical domain text tokenization to autoregressive transformer training and evaluation culminating in an interactive Streamlit dashboard.
 
 ---
 
 ## **Key Features**
 1. **Decoder-Only Transformer Architecture**: Custom implementation of embeddings, positional encoding, multi-head causal self-attention, feed-forward networks, and layer normalization in PyTorch.
-2. **Medical SentencePiece BPE Tokenizer**: A custom Byte Pair Encoding (BPE) tokenizer trained on domain-specific medical corpora, achieving a compact and efficient vocabulary size of $8,000$.
-3. **Clinical Conversation dataset**: Trained and validated on the **HealthCareMagic** dataset containing over **101,000** patient-doctor dialogue sequences.
-4. **Hyperparameter Tuning & Evaluation Dashboard**: Interactive Streamlit application to compare performance metrics (Perplexity, BLEU, and ROUGE scores) across different architecture dimensions and test symptom queries in real-time.
+2. **Medical SentencePiece BPE Tokenizer**: A custom Byte Pair Encoding (BPE) tokenizer trained on domain specific medical corpora, achieving a compact and efficient vocabulary size of $8,000$.
+3. **Clinical Conversation dataset**: Trained and validated on the **HealthCareMagic** dataset containing over **101,000** patient doctor dialogue sequences.
+4. **Hyperparameter Tuning & Evaluation Dashboard**: Interactive Streamlit application to compare performance metrics (Perplexity, BLEU, and ROUGE scores) across different architecture dimensions and test symptom queries in real time.
 
 ---
 
